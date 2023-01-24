@@ -16,10 +16,10 @@
     <header>
     <div class="print-area">
         <div class="header">
-            <img src="img/img.jpg" alt="Fotografía CV">
+            <img id="fotocv" alt="Fotografía CV">
             <div class="header-text">
-                <h1>JACKIE WOODS</h1>
-                <p>Técnica Informática y Desarrolladora Web</p>
+                <h1 id="nombre" ></h1>
+                <p>Técnico Informático y Desarrollador Web</p>
             </div>
         </div>
     </div>
@@ -29,11 +29,11 @@
             <div class="contacto">
                 <h4>CONTACTO</h4>
                 <h5>Teléfono</h5>
-                <p>(927) 549-5338</p>
+                <p id="telefono"></p>
                 <h5>E-mail</h5>
-                <p>jackie.woods@ejemplo.com</p>
-                <h5>Domicilio</h5>
-                <p>Calle Falsa 123, Springfield</p>
+                <p id="mail"></p>
+                <h5>Ubicacion</h5>
+                <p id="ubicacion"></p>
             </div>
             <div class="habilidades">
                 <h1>HABILIDADES</h1>
@@ -69,13 +69,15 @@
                 <nav>
                     <ul>
                         <li><span><i class="fa-brands fa-facebook fa-2x fa-shake"></i></span>
-                        <a href="https://www.facebook.com/"target=_blank">JackieWoodsFB</a></li>
+                        <a href="https://www.facebook.com/"target=_blank">Facebook</a></li>
                         <li><span><i class="fa-brands fa-twitter fa-2x fa-shake"></i></span>
-                        <a href="https://www.twitter.com/"target=_blank">JackieWoodsTW</a></li>
+                        <a href="https://www.twitter.com/"target=_blank">Twitter</a></li>
                         <li><span><i class="fa-brands fa-instagram fa-2x fa-shake"></i></span>
-                        <a href="https://www.instagram.com/"target=_blank">JackieWoodsIG</a></li>
+                        <a href="https://www.instagram.com/"target=_blank">Instagram</a></li>
                         <li><span><i class="fa-brands fa-youtube fa-2x fa-shake"></i></span>
-                        <a href="https://www.youtube.com/"target=_blank">JackieWoodsYT</a></li>
+                        <a href="https://www.youtube.com/"target=_blank">Youtube</a></li>
+                        <li><span><i class="fa-brands fa-linkedin fa-2x fa-shake"></i></span>
+                            <a href="https://www.youtube.com/"target=_blank">LinkedIn</a></li>
                     </ul>
                 </nav>
             </div>
@@ -150,7 +152,12 @@ Nunc aliquam odio hendrerit metus aliquam ullamcorper. Integer consequat interdu
             </div>
         </div>
     </div>
-
+    <footer>
+        <div class="footer">
+            <i class="fa-regular fa-copyright"></i>
+            <a href="https://github.com/Feerdus95" target="_blank"> Fernando Verdus</a>
+        </div>
+    </footer>
     <input id="imprimir" type="button" value="Imprimir CV" onClick="imprimir()">
     
     <!--JavaScript FontAwesome-->
