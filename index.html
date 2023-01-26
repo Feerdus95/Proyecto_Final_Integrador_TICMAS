@@ -1,167 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE-edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CV - TICMAS</title>
-    <meta name="keywords" content="CV TICMAS, Curriculum, CV , Curriculum Vitae, Resume">
-    <meta name="description" content="Curriculum Vitae desarrollado en HTML, para el curso Front End Academy de la plataforma TICMAS">
-    <!--CSS propio-->
-	<link rel="stylesheet" href="estilos/estilos.css">
-    <!--CSS FontAwesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <!--CSS LightBox-->
-    <link rel="stylesheet" href="estilos/lightbox.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - TICMAS</title>
+  <meta name="keywords" content="CV TICMAS, Curriculum, CV , Curriculum Vitae, Resume">
+  <meta name="description" content="Curriculum Vitae desarrollado en HTML, para el curso Front End Academy de la plataforma TICMAS">
+  <!--CSS Propio-->
+  <link rel="stylesheet" href="estilos/estilos.css">
+  <!--CSS FontAwesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!--CSS LightBox-->
+  <link rel="stylesheet" href="estilos/lightbox.min.css">
 </head>
-<body>
-    <header>
-    <div class="print-area">
-        <div class="header">
-            <img id="fotocv" alt="Fotografía CV">
+<body class="grid-container">
+  <header class="header">
+    <img id="fotocv" alt="Fotografía CV">
             <div class="header-text">
-                <h1 id="nombre" ></h1>
+                <h1 id="nombre"></h1>
                 <p>Técnico Informático y Desarrollador Web</p>
             </div>
-        </div>
-    </div>
-    </header>
-    <div class="contenido">
-        <div class="area-izq">
-            <div class="contacto">
-                <h4>CONTACTO</h4>
-                <h5>Teléfono</h5>
-                <p id="telefono"></p>
-                <h5>E-mail</h5>
-                <p id="mail"></p>
-                <h5>Ubicacion</h5>
-                <p id="ubicacion"></p>
-            </div>
-            <div class="habilidades">
-                <h1>HABILIDADES</h1>
-                <div class="bars">
-                    <div class="bar">
-                        <p>Reparación PC</p>
-                        <span></span>
-                    </div>
-                    <div class="bar">
-                        <p>HTML/CSS</p>
-                        <span></span>
-                    </div>
-                    <div class="bar">
-                        <p>JavaScript</p>
-                        <span></span>
-                    </div>
-                    <div class="bar">
-                        <p>PHP</p>
-                        <span></span>
-                    </div>
-                    <div class="bar">
-                        <p>Photoshop</p>
-                        <span></span>
-                    </div>
-                    <div class="bar">
-                        <p>C#</p>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-            <div class="rrss">
-                <h1>REDES SOCIALES</h1>
-                <nav>
-                    <ul>
-                        <li><span><i class="fa-brands fa-facebook fa-2x fa-shake"></i></span>
-                        <a href="https://www.facebook.com/"target=_blank">Facebook</a></li>
-                        <li><span><i class="fa-brands fa-twitter fa-2x fa-shake"></i></span>
-                        <a href="https://www.twitter.com/"target=_blank">Twitter</a></li>
-                        <li><span><i class="fa-brands fa-instagram fa-2x fa-shake"></i></span>
-                        <a href="https://www.instagram.com/"target=_blank">Instagram</a></li>
-                        <li><span><i class="fa-brands fa-youtube fa-2x fa-shake"></i></span>
-                        <a href="https://www.youtube.com/"target=_blank">Youtube</a></li>
-                        <li><span><i class="fa-brands fa-linkedin fa-2x fa-shake"></i></span>
-                            <a href="https://www.youtube.com/"target=_blank">LinkedIn</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div>
-                <div class="portfolio">
-                        <h1>
-                        <span><i class="fa-solid fa-briefcase fa-flip" style="--fa-animation-duration: 3s;"></i></span>
-                        PORTFOLIO
-                        </h1>
-                        <div class="album">
-                                <a href="img/trabajo1.jpg" data-lightbox="mygallery"><img src="img/trabajo1.jpg" alt="Trabajo 1" width="150px" height="150px"></a>
-                                <a href="img/trabajo2.jpg" data-lightbox="mygallery"><img src="img/trabajo2.jpg" alt="Trabajo 2" width="150px" height="150px"></a>
-                                <a href="img/trabajo3.jpg" data-lightbox="mygallery"><img src="img/trabajo3.jpg" alt="Trabajo 3" width="150px" height="150px"></a>
-                                <a href="img/trabajo4.jpg" data-lightbox="mygallery"><img src="img/trabajo4.jpg" alt="Trabajo 4" width="150px" height="150px"></a>
-                                <a href="img/trabajo5.jpg" data-lightbox="mygallery"><img src="img/trabajo5.jpg" alt="Trabajo 5" width="150px" height="150px"></a>
-                                <a href="img/trabajo6.jpg" data-lightbox="mygallery"><img src="img/trabajo6.jpg" alt="Trabajo 6" width="150px" height="150px"></a>
-                        </div>
-                </div>
-            </div>
-        </div>
-        <div class="area-der">
-            <div class="sobre">
-                <h1>
-                    <span>
-                    <i class="far fa-user fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i>
-                    </span>
-                    SOBRE MI
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non lectus diam. Morbi porttitor ullamcorper lacinia. Praesent rutrum augue risus, quis tristique turpis luctus in. Mauris ac molestie dui. Morbi iaculis lacus vel mollis aliquam. In in imperdiet magna, maximus tincidunt odio. Pellentesque eleifend, sapien at tristique ultricies, lorem leo maximus nunc, nec lobortis urna velit et nisi. Curabitur blandit laoreet leo, in consectetur justo. Suspendisse commodo libero quis enim lobortis, vitae consectetur metus eleifend. Duis posuere gravida imperdiet. Duis sed viverra tortor. Etiam ante lectus, suscipit sed faucibus eu, molestie ut elit. Sed nec lobortis ligula.
+  </header>
+  <nav class="area-izq">
+    <div class="contacto">
+      <h4>CONTACTO</h4>
+      <h5>Teléfono</h5>
+      <p id="telefono"></p>
+      <h5>E-mail</h5>
+      <p id="mail"></p>
+      <h5>Ubicacion</h5>
+      <p id="ubicacion"></p>
+  </div>
+  <div class="habilidades">
+      <h1>HABILIDADES</h1>
+      <div class="bars">
+          <div class="bar">
+              <p>Reparación PC</p>
+              <span></span>
+          </div>
+          <div class="bar">
+              <p>HTML/CSS</p>
+              <span></span>
+          </div>
+          <div class="bar">
+              <p>JavaScript</p>
+              <span></span>
+          </div>
+          <div class="bar">
+              <p>PHP</p>
+              <span></span>
+          </div>
+          <div class="bar">
+              <p>Photoshop</p>
+              <span></span>
+          </div>
+          <div class="bar">
+              <p>C#</p>
+              <span></span>
+          </div>
+      </div>
+  </div>
+  <div class="rrss">
+      <h1>REDES SOCIALES</h1>
+      <nav>
+          <ul>
+              <li><span><i class="fa-brands fa-facebook fa-2x fa-shake"></i></span>
+              <a href="https://www.facebook.com/"target=_blank">Facebook</a></li>
+              <li><span><i class="fa-brands fa-twitter fa-2x fa-shake"></i></span>
+              <a href="https://www.twitter.com/"target=_blank">Twitter</a></li>
+              <li><span><i class="fa-brands fa-instagram fa-2x fa-shake"></i></span>
+              <a href="https://www.instagram.com/"target=_blank">Instagram</a></li>
+              <li><span><i class="fa-brands fa-youtube fa-2x fa-shake"></i></span>
+              <a href="https://www.youtube.com/"target=_blank">Youtube</a></li>
+              <li><span><i class="fa-brands fa-linkedin fa-2x fa-shake"></i></span>
+                  <a href="https://www.youtube.com/"target=_blank">LinkedIn</a></li>
+          </ul>
+      </nav>
+  </div>
+  <div>
+      <div class="portfolio">
+              <h1>
+              <span><i class="fa-solid fa-briefcase fa-flip" style="--fa-animation-duration: 3s;"></i></span>
+              PORTFOLIO
+              </h1>
+              <div class="album">
+                      <a href="img/trabajo1.jpg" data-lightbox="mygallery"><img src="img/trabajo1.jpg" alt="Trabajo 1" width="150px" height="150px"></a>
+                      <a href="img/trabajo2.jpg" data-lightbox="mygallery"><img src="img/trabajo2.jpg" alt="Trabajo 2" width="150px" height="150px"></a>
+                      <a href="img/trabajo3.jpg" data-lightbox="mygallery"><img src="img/trabajo3.jpg" alt="Trabajo 3" width="150px" height="150px"></a>
+                      <a href="img/trabajo4.jpg" data-lightbox="mygallery"><img src="img/trabajo4.jpg" alt="Trabajo 4" width="150px" height="150px"></a>
+                      <a href="img/trabajo5.jpg" data-lightbox="mygallery"><img src="img/trabajo5.jpg" alt="Trabajo 5" width="150px" height="150px"></a>
+                      <a href="img/trabajo6.jpg" data-lightbox="mygallery"><img src="img/trabajo6.jpg" alt="Trabajo 6" width="150px" height="150px"></a>
+              </div>
+      </div>
+  </div>
+</div>
+  </nav>
+  <article class="area-der"><div class="sobre">
+    <h1>
+        <span>
+        <i class="far fa-user fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i>
+        </span>
+        SOBRE MI
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non lectus diam. Morbi porttitor ullamcorper lacinia. Praesent rutrum augue risus, quis tristique turpis luctus in. Mauris ac molestie dui. Morbi iaculis lacus vel mollis aliquam. In in imperdiet magna, maximus tincidunt odio. Pellentesque eleifend, sapien at tristique ultricies, lorem leo maximus nunc, nec lobortis urna velit et nisi. Curabitur blandit laoreet leo, in consectetur justo. Suspendisse commodo libero quis enim lobortis, vitae consectetur metus eleifend. Duis posuere gravida imperdiet. Duis sed viverra tortor. Etiam ante lectus, suscipit sed faucibus eu, molestie ut elit. Sed nec lobortis ligula.
 
 Nam et scelerisque quam. Maecenas scelerisque enim sed dolor sodales porta. Cras feugiat augue at nibh fringilla venenatis. In vel magna purus. Aenean faucibus id felis vel laoreet. Pellentesque eu erat metus. Vestibulum vehicula velit sed velit euismod accumsan. In scelerisque diam vel volutpat sodales.
 
 Nunc aliquam odio hendrerit metus aliquam ullamcorper. Integer consequat interdum dignissim. Ut quis efficitur ipsum. In hac habitasse platea dictumst. Pellentesque et orci sit amet mi viverra sodales. Ut pharetra laoreet velit, vel vulputate ligula pulvinar sed. Ut tempor ultricies odio, sit amet rhoncus dolor pretium ac. Suspendisse finibus vel nunc quis gravida. Aliquam porttitor pretium arcu venenatis rhoncus. Vestibulum odio leo, tristique non ligula ac, tempus congue tortor. Aliquam posuere lacus ac venenatis mattis. Aenean volutpat elit a ex cursus, vitae pulvinar tellus maximus. Nunc odio diam, porttitor ut massa porttitor, scelerisque ultrices risus. Mauris congue, urna et gravida imperdiet, justo eros elementum dui, eget tincidunt mauris est ut nunc.
-                </p>
-            </div>
-            <div class="trabajo">
-                <h1>
-                    <span><i class="fas fa-suitcase-rolling fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i></span>
-                    EXPERIENCIA LABORAL
-                </h1>
-                <div class="grupo-de-trabajo">
-                    <h3>LEAD WEB DESIGNER</h3>
-                    <h4>Springfield College</h4>
-                    <span>2019/2022</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget laoreet ante. Proin malesuada dui at leo tincidunt, cursus lacinia velit lacinia. Proin in ligula congue, vehicula augue a, faucibus enim. Nulla quam lacus, auctor sed sapien sed, mattis imperdiet quam. Aenean aliquam feugiat nunc, hendrerit feugiat sapien dictum eget. Praesent nisl leo, lobortis eget ante non, commodo egestas lectus. Duis eget facilisis mauris, placerat luctus ligula. Aliquam velit neque, facilisis sit amet erat vitae, congue faucibus dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum vitae justo pellentesque, dapibus ante quis, porta neque. Proin consectetur tellus vel volutpat molestie. Duis nec ultrices felis, quis pretium nulla. Cras mattis quam a felis dictum, a dignissim mauris lacinia.</p>
-                </div>
-                <div class="grupo-de-trabajo">
-                    <h3>SENIOR WEB DESIGNER</h3>
-                    <h4>Springfield College</h4>
-                    <span>2019/2022</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget laoreet ante. Proin malesuada dui at leo tincidunt, cursus lacinia velit lacinia. Proin in ligula congue, vehicula augue a, faucibus enim. Nulla quam lacus, auctor sed sapien sed, mattis imperdiet quam. Aenean aliquam feugiat nunc, hendrerit feugiat sapien dictum eget. Praesent nisl leo, lobortis eget ante non, commodo egestas lectus. Duis eget facilisis mauris, placerat luctus ligula. Aliquam velit neque, facilisis sit amet erat vitae, congue faucibus dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum vitae justo pellentesque, dapibus ante quis, porta neque. Proin consectetur tellus vel volutpat molestie. Duis nec ultrices felis, quis pretium nulla. Cras mattis quam a felis dictum, a dignissim mauris lacinia.</p>
-                </div>
-                <div class="grupo-de-trabajo">
-                    <h3>UI/UX DESIGNER</h3>
-                    <h4>Springfield College</h4>
-                    <span>2019/2022</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget laoreet ante. Proin malesuada dui at leo tincidunt, cursus lacinia velit lacinia. Proin in ligula congue, vehicula augue a, faucibus enim. Nulla quam lacus, auctor sed sapien sed, mattis imperdiet quam. Aenean aliquam feugiat nunc, hendrerit feugiat sapien dictum eget. Praesent nisl leo, lobortis eget ante non, commodo egestas lectus. Duis eget facilisis mauris, placerat luctus ligula. Aliquam velit neque, facilisis sit amet erat vitae, congue faucibus dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum vitae justo pellentesque, dapibus ante quis, porta neque. Proin consectetur tellus vel volutpat molestie. Duis nec ultrices felis, quis pretium nulla. Cras mattis quam a felis dictum, a dignissim mauris lacinia.</p>
-                </div>
-            </div>
-            <div class="educacion">
-                <h1>
-                    <span><i class="fas fa-book fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i></span>
-                    FORMACIÓN ACADÉMICA
-                </h1>
-                <div class="edu-group">
-                    <h4>SPRINGFIELD COLLEGE <br>
-                    COMPUTER TECHNOLOGY GRADUATE</h4>
-                    <span>2013/2018</span>
-                    <p>Web Design Minor Degree</p>
-                </div>
-            </div>
-        </div>
+    </p>
+</div>
+<div class="trabajo">
+    <h1>
+        <span><i class="fas fa-suitcase-rolling fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i></span>
+        EXPERIENCIA LABORAL
+    </h1>
+    <div class="grupo-de-trabajo">
+        <h3>LEAD WEB DESIGNER</h3>
+        <h4>Springfield College</h4>
+        <span>2019/2022</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget laoreet ante. Proin malesuada dui at leo tincidunt, cursus lacinia velit lacinia. Proin in ligula congue, vehicula augue a, faucibus enim. Nulla quam lacus, auctor sed sapien sed, mattis imperdiet quam. Aenean aliquam feugiat nunc, hendrerit feugiat sapien dictum eget. Praesent nisl leo, lobortis eget ante non, commodo egestas lectus. Duis eget facilisis mauris, placerat luctus ligula. Aliquam velit neque, facilisis sit amet erat vitae, congue faucibus dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum vitae justo pellentesque, dapibus ante quis, porta neque. Proin consectetur tellus vel volutpat molestie. Duis nec ultrices felis, quis pretium nulla. Cras mattis quam a felis dictum, a dignissim mauris lacinia.</p>
     </div>
-    <footer>
-        <div class="footer">
-            <i class="fa-regular fa-copyright"></i>
-            <a href="https://github.com/Feerdus95" target="_blank"> Fernando Verdus</a>
-            <br>
-            <input id="imprimir" type="button" value="Imprimir CV" onClick="imprimir()">
-        </div>
-    </footer>
+    <div class="grupo-de-trabajo">
+        <h3>SENIOR WEB DESIGNER</h3>
+        <h4>Springfield College</h4>
+        <span>2019/2022</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget laoreet ante. Proin malesuada dui at leo tincidunt, cursus lacinia velit lacinia. Proin in ligula congue, vehicula augue a, faucibus enim. Nulla quam lacus, auctor sed sapien sed, mattis imperdiet quam. Aenean aliquam feugiat nunc, hendrerit feugiat sapien dictum eget. Praesent nisl leo, lobortis eget ante non, commodo egestas lectus. Duis eget facilisis mauris, placerat luctus ligula. Aliquam velit neque, facilisis sit amet erat vitae, congue faucibus dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum vitae justo pellentesque, dapibus ante quis, porta neque. Proin consectetur tellus vel volutpat molestie. Duis nec ultrices felis, quis pretium nulla. Cras mattis quam a felis dictum, a dignissim mauris lacinia.</p>
+    </div>
+    <div class="grupo-de-trabajo">
+        <h3>UI/UX DESIGNER</h3>
+        <h4>Springfield College</h4>
+        <span>2019/2022</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget laoreet ante. Proin malesuada dui at leo tincidunt, cursus lacinia velit lacinia. Proin in ligula congue, vehicula augue a, faucibus enim. Nulla quam lacus, auctor sed sapien sed, mattis imperdiet quam. Aenean aliquam feugiat nunc, hendrerit feugiat sapien dictum eget. Praesent nisl leo, lobortis eget ante non, commodo egestas lectus. Duis eget facilisis mauris, placerat luctus ligula. Aliquam velit neque, facilisis sit amet erat vitae, congue faucibus dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum vitae justo pellentesque, dapibus ante quis, porta neque. Proin consectetur tellus vel volutpat molestie. Duis nec ultrices felis, quis pretium nulla. Cras mattis quam a felis dictum, a dignissim mauris lacinia.</p>
+    </div>
+</div>
+<div class="educacion">
+    <h1>
+        <span><i class="fas fa-book fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i></span>
+        FORMACIÓN ACADÉMICA
+    </h1>
+    <div class="edu-group">
+        <h4>SPRINGFIELD COLLEGE <br>
+        COMPUTER TECHNOLOGY GRADUATE</h4>
+        <span>2013/2018</span>
+        <p>Web Design Minor Degree</p>
+    </div>
+</div>
+</div>
+</div></article>
+  <footer class="footer">
+    <div>
+      <i class="fa-regular fa-copyright"></i>
+      <a href="https://github.com/Feerdus95" target="_blank"> Fernando Verdus</a>
+      <br>
+      <input id="imprimir" type="button" value="Imprimir CV" onClick="imprimir()">
+  </div>
+  </footer>
+</body>
 
     <!--JavaScript FontAwesome-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
@@ -170,5 +165,4 @@ Nunc aliquam odio hendrerit metus aliquam ullamcorper. Integer consequat interdu
     <!--JavaScript LightBox p/ Galería de Fotos-->
     <script src="js/lightbox-plus-jquery.min.js"></script>
 
-</body>
 </html>
