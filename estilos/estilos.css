@@ -159,6 +159,22 @@ nav ul li a:hover:before{
 nav ul li a i{
 	max-width: 20px;
 }
+.idiomas{
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: .5rem;
+	margin: 1rem 0;
+}
+.idiomas h1{
+	font-weight: lighter;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.idiomas h1 .bars{
+	margin-top: 10px;
+	justify-content: center;
+	align-items: center;
+}
 .portfolio{
 	text-align: center;
 	border: 1px solid gray;
